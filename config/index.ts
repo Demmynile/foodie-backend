@@ -1,0 +1,1 @@
+export const MONGO_URI = 'mongodb+srv://spicywords:Harbeedeymee_123@cluster0.7kici.mongodb.net/foodie?retryWrites=true&w=majority'
