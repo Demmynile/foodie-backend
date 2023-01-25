@@ -25,7 +25,7 @@ mongoose.connect(process.env.MONGO_URI!, {
 	useUnifiedTopology: true,
 	// useCreateIndex : true
 
-} as ConnectOptions | undefined).then(result => {
+} as ConnectOptions).then(result => {
 	console.log('DB CONNECTED')
 }).catch(err => console.log('error' + err))
 
