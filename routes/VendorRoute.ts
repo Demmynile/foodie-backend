@@ -4,6 +4,7 @@ import {
   AddFood,
   GetFoods,
   GetVendorProfile,
+  updateVendorCoverImage,
   UpdateVendorProfile,
   UpdateVendorService,
   VendorLogin,
@@ -32,6 +33,7 @@ router.post("/login", VendorLogin);
 router.use(Authenticate);
 router.get("/profile", GetVendorProfile);
 router.patch("/profile", UpdateVendorProfile);
+router.patch("/coverimage", images, updateVendorCoverImage);
 router.patch("/service", UpdateVendorService);
 
 //Foods
