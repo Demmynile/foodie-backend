@@ -8,6 +8,7 @@ router.get('/vendors' , GetVendors)
 router.get('/vendor/:id' , GetVendorsById)
 
 
+
 router.get('/' , (req : Request , res : Response , next:NextFunction ) => {
 	res.json({message : "Hello from the Admin"})
 })
