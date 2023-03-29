@@ -1,1 +1,1 @@
-export const APP_SECRET = "OUR APP SECRET KEY"
+export const APP_SECRET = "OUR APP SECRET KEY";

@@ -40,8 +40,4 @@ router.patch("/service", UpdateVendorService);
 router.post("/food", images, AddFood);
 router.get("/foods", GetFoods);
 
-router.get("/", (req: Request, res: Response, next: NextFunction) => {
-  res.json({ message: "Hello from the Vendor" });
-});
-
 export { router as VendorRoute };
