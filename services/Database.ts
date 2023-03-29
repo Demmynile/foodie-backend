@@ -2,6 +2,7 @@ import mongoose, { ConnectOptions } from "mongoose";
 import dotenv from "dotenv";
 
 export default async () => {
+//importing the dotenv library
   dotenv.config();
 
   try {
