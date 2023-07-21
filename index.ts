@@ -2,7 +2,7 @@ import express from "express";
 import App from "./services/ExpressApp";
 import dbConnection from "./services/Database";
 
-const StaerServer = async () => {
+const StartServer = async () => {
   const app = express();
 
   await dbConnection();
@@ -14,4 +14,4 @@ const StaerServer = async () => {
   });
 };
 
-StaerServer();
+StartServer();
